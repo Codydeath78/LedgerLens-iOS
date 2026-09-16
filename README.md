@@ -438,7 +438,7 @@ Notifications are scheduled locally using Apple's `UserNotifications` framework.
     </td>
     <td align="center">
       <strong>Filter Settings</strong><br><br>
-      <img src="screenshots/FILTERDROPDOWN.png" width="230" alt="Filter Settings">
+      <img src="screenshots/FILTERDDROPDOWN.png" width="230" alt="Filter Settings">
     </td>
   </tr>
 </table>
