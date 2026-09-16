@@ -12,6 +12,33 @@ Users can scan or upload a document, extract financial data, ask natural-languag
 
 > **Core engineering principle:** Swift calculates financial facts. AI retrieves and explains them.
 
+
+## App Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Home</strong><br><br>
+      <img src="screenshots/HOMEPAGE.png" width="230" alt="LedgerLens Home">
+    </td>
+    <td align="center">
+      <strong>Analyze</strong><br><br>
+      <img src="screenshots/ANALYZEPAGE.png" width="230" alt="LedgerLens Analyze">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Financial Insights</strong><br><br>
+      <img src="screenshots/INSIGHTPAGE.png" width="230" alt="LedgerLens Financial Insights">
+    </td>
+    <td align="center">
+      <strong>Document History</strong><br><br>
+      <img src="screenshots/HISTORYPAGE.png" width="230" alt="LedgerLens Document History">
+    </td>
+  </tr>
+</table>
+
+
 ---
 
 ## Overview
