@@ -73,6 +73,35 @@ Insights • Q&A • Reports
 
 ### Document Intelligence
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Detailed Document Summary</strong><br><br>
+      <img src="screenshots/DETAILEDDOCSUMMARY.png" width="230" alt="Detailed Document Summary">
+    </td>
+    <td align="center">
+      <strong>Detailed Document Intelligence</strong><br><br>
+      <img src="screenshots/DETAILEDDOCINTEL.png" width="230" alt="Detailed Document Intelligence">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Detailed Document Charge Intelligence</strong><br><br>
+      <img src="screenshots/DETAILEDDOCCHARGEINTEL.png" width="230" alt="Detailed Document Charge Intelligence">
+    </td>
+    <td align="center">
+      <strong>Detailed Document Recurring Payments</strong><br><br>
+      <img src="screenshots/RECURRINGPAYMENTS.png" width="230" alt="Detailed Document Recurring Payments">
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      <strong>Detailed Document Income Analysis</strong><br><br>
+      <img src="screenshots/WHEREMONEYWENT.png" width="230" alt="Detailed Document Income Analysis">
+    </td>
+  </tr>
+</table>
+
 - Scan physical financial documents with VisionKit
 - Upload PDF, JPEG, and PNG files
 - Convert multi-page scans into a single PDF
@@ -85,6 +114,29 @@ Insights • Q&A • Reports
 - Analyze bank balance movement
 
 ### Financial Analysis
+<table>
+ <tr>
+    <td align="center">
+      <strong>Scan/Upload Financial Document</strong><br><br>
+      <img src="screenshots/ANALYZEPAGE.png" width="230" alt="Scan/Upload Financial Document">
+    </td>
+    <td align="center">
+      <strong>Veryfi Processing The Information</strong><br><br>
+      <img src="screenshots/PROCESSINGDOC.png" width="230" alt="Veryfi Processing The Information">
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      <strong>All swift computations completed for user</strong><br><br>
+      <img src="screenshots/FINISHEDPROCESS.png" width="230" alt="All swift computations completed for user">
+    </td>
+    <td align="center">
+      <strong>Natural Language Result</strong><br><br>
+      <img src="screenshots/ASKEDAIQUESTION.png" width="230" alt="Natural Language Result">
+    </td>
+  </tr>
+  
+</table>
 
 - Deterministic spending calculations in Swift
 - Credit-card payment exclusion to prevent double-counting
@@ -96,6 +148,15 @@ Insights • Q&A • Reports
 - Statement, service-period, and billing-period resolution
 
 ### AI-Powered Q&A
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Previous Q&A Conversation</strong><br><br>
+      <img src="screenshots/PREVIOUSQA.png" width="230" alt="Previous Q&A Conversation">
+    </td>
+  </tr>
+</table>
 
 LedgerLens supports multiple query strategies depending on the question.
 
@@ -124,6 +185,19 @@ For semantic questions, LedgerLens uses a Retrieval-Augmented Generation pipelin
 
 ## Financial Attention Feed
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Attention Feed</strong><br><br>
+      <img src="screenshots/BILLSUSUAGERECENTDOCS.png" width="230" alt="Attention Feed">
+    </td>
+    <td align="center">
+      <strong>Recent Activity Feed</strong><br><br>
+      <img src="screenshots/RECENTACTIVITY.png" width="230" alt="Recent Activity Feed">
+    </td>
+  </tr>
+</table>
+
 The Home dashboard surfaces information that may deserve the user's attention.
 
 Examples include:
@@ -139,6 +213,19 @@ The feed prioritizes financial events without labeling transactions as fraudulen
 ---
 
 ## Cross-Document Intelligence
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Select 3-8 Documents for Cross-Analysis Evaluation</strong><br><br>
+      <img src="screenshots/COMPARED3DOCSSPENDINGCOMP.png" width="230" alt="Select 3-8 Documents for Cross-Analysis Evaluation">
+    </td>
+    <td align="center">
+      <strong>Natural Language responses</strong><br><br>
+      <img src="screenshots/CROSSANALYISQUESTIONASKED.png" width="230" alt="Natural Language responses">
+    </td>
+  </tr>
+</table>
 
 LedgerLens can analyze multiple saved financial documents together without re-uploading them to the extraction service.
 
@@ -286,6 +373,15 @@ This architecture reduces hallucination risk for financial calculations.
 
 ## Reports & Exporting
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Export Financial Reports as PDF or CSV</strong><br><br>
+      <img src="screenshots/SAVEDOCEXPORTDOCCONTINUEANALYZE.png" width="230" alt="Export Financial Reports as PDF or CSV">
+    </td>
+  </tr>
+</table>
+
 LedgerLens can generate professional financial reports directly on-device.
 
 Supported formats:
@@ -309,6 +405,15 @@ Reports can be shared using the native iOS share sheet.
 
 ## Bill Reminders
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Bill Reminders</strong><br><br>
+      <img src="screenshots/BILLSUSUAGERECENTDOCS.png" width="230" alt="Bill Reminders">
+    </td>
+  </tr>
+</table>
+
 LedgerLens extracts due dates from saved financial documents and allows users to schedule local reminders.
 
 Available reminder options include:
@@ -324,6 +429,20 @@ Notifications are scheduled locally using Apple's `UserNotifications` framework.
 
 ## Document Organization
 
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Folder creation & Suggestions</strong><br><br>
+      <img src="screenshots/FOLDERMANAGER.png" width="230" alt="Folder creation & Suggestions">
+    </td>
+    <td align="center">
+      <strong>Filter Settings</strong><br><br>
+      <img src="screenshots/FILTERDROPDOWN.png" width="230" alt="Filter Settings">
+    </td>
+  </tr>
+</table>
+
 Users can organize financial documents with:
 
 - Folders
@@ -338,6 +457,15 @@ Deleting a folder does not delete the financial documents contained within it.
 ---
 
 ## Authentication & Security
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Settings Page</strong><br><br>
+      <img src="screenshots/SETTINGSPAGE.png" width="230" alt="Settings Page">
+    </td>
+  </tr>
+</table>
 
 LedgerLens uses Supabase for authentication and backend security.
 
