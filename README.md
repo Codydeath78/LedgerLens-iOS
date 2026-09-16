@@ -143,28 +143,28 @@ This enables:
 ```text
 
 ┌──────────────────────────────────────────────────────────────────────┐
-│                         iOS Application                             │
-│                    Swift + SwiftUI + UIKit                          │
+│                         iOS Application                              │
+│                    Swift + SwiftUI + UIKit                           │
 │                                                                      │
-│   Home   |   Analyze   |   History   |   Reports   |   Account      │
+│   Home   |   Analyze   |   History   |   Reports   |   Account       │
 │      \         |            |             |            /             │
 │       \        |            |             |           /              │
 │        └───────┴────────────┴─────────────┴──────────┘               │
 │                               │                                      │
 │                     Domain / Logic Layer                             │
 │                               │                                      │
-│   FinancialDocument  •  TransactionRecord  •  Query Router          │
+│   FinancialDocument  •  TransactionRecord  •  Query Router           │
 │   CrossDocumentEngine • Recurring Detection                          │
 │   Document Intelligence • Attention Feed                             │
 │                               │                                      │
-│              ┌────────────────┴────────────────┐                    │
-│              │                                 │                    │
-│      Apple Frameworks                   Supabase Client             │
-│              │                                 │                    │
-│   VisionKit • PDFKit                    HTTPS + JWT                 │
-│   LocalAuthentication                          │                    │
-│   UserNotifications                            │                    │
-└────────────────────────────────────────────────┼────────────────────┘
+│              ┌────────────────┴────────────────┐                     │
+│              │                                 │                     │
+│      Apple Frameworks                   Supabase Client              │
+│              │                                 │                     │
+│   VisionKit • PDFKit                    HTTPS + JWT                  │
+│   LocalAuthentication                          │                     │
+│   UserNotifications                            │                     │
+└────────────────────────────────────────────────┼─────────────────────┘
                                                  │
                                                  ▼
                               ┌──────────────────────────────┐
