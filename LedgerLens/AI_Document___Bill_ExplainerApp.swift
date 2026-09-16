@@ -3,10 +3,11 @@
 import SwiftUI
 
 @main
-struct ___PACKAGENAME:identifier___App: App {
+struct ___PACKAGENAME: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            AppRootView()
         }
     }
 }

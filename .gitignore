@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager build data
+.build/
+.swiftpm/
+
+# Local configuration / secrets
+LedgerLens/Config.xcconfig
