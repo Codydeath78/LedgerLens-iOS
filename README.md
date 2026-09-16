@@ -29,7 +29,7 @@ Users can scan or upload a document, extract financial data, ask natural-languag
   <tr>
     <td align="center">
       <strong>Financial Insights</strong><br><br>
-      <img src="screenshots/INSIGHTPAGE.png" width="230" alt="LedgerLens Financial Insights">
+      <img src="screenshots/INSIGHTSPAGE.png" width="230" alt="LedgerLens Financial Insights">
     </td>
     <td align="center">
       <strong>Document History</strong><br><br>
