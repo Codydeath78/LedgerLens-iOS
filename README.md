@@ -141,44 +141,48 @@ This enables:
 ## Architecture
 
 ```text
-┌────────────────────────────────────────────────────────────┐
-│                      iOS Application                       │
-│                                                            │
-│                Swift + SwiftUI + UIKit                     │
-│                                                            │
-│  Home     Analyze     History     Reports     Account      │
-│    │          │          │           │           │         │
-│    └──────────┴──────────┴───────────┴───────────┘         │
-│                         │                                  │
-│                  Domain / Logic Layer                      │
-│                         │                                  │
-│  FinancialDocument • TransactionRecord • Query Router     │
-│  CrossDocumentEngine • Recurring Detection                │
-│  Document Intelligence • Attention Feed                   │
-│                         │                                  │
-│          ┌──────────────┴──────────────┐                   │
-│          │                             │                   │
-│    Apple Frameworks              Supabase Client           │
-│          │                             │                   │
-│ VisionKit • PDFKit                     ↓                   │
-│ LocalAuthentication             HTTPS + JWT               │
-│ UserNotifications                     │                   │
-└────────────────────────────────────────┼───────────────────┘
-                                         ↓
-                           ┌────────────────────────┐
-                           │       Supabase         │
-                           │                        │
-                           │ Auth                   │
-                           │ PostgreSQL             │
-                           │ Row Level Security     │
-                           │ Private Storage        │
-                           │ Edge Functions         │
-                           │ Rate Limiting          │
-                           └───────────┬────────────┘
-                                       │
-                              ┌────────┴────────┐
-                              ↓                 ↓
-                           Veryfi            OpenAI
+
+┌──────────────────────────────────────────────────────────────────────┐
+│                         iOS Application                             │
+│                    Swift + SwiftUI + UIKit                          │
+│                                                                      │
+│   Home   |   Analyze   |   History   |   Reports   |   Account      │
+│      \         |            |             |            /             │
+│       \        |            |             |           /              │
+│        └───────┴────────────┴─────────────┴──────────┘               │
+│                               │                                      │
+│                     Domain / Logic Layer                             │
+│                               │                                      │
+│   FinancialDocument  •  TransactionRecord  •  Query Router          │
+│   CrossDocumentEngine • Recurring Detection                          │
+│   Document Intelligence • Attention Feed                             │
+│                               │                                      │
+│              ┌────────────────┴────────────────┐                    │
+│              │                                 │                    │
+│      Apple Frameworks                   Supabase Client             │
+│              │                                 │                    │
+│   VisionKit • PDFKit                    HTTPS + JWT                 │
+│   LocalAuthentication                          │                    │
+│   UserNotifications                            │                    │
+└────────────────────────────────────────────────┼────────────────────┘
+                                                 │
+                                                 ▼
+                              ┌──────────────────────────────┐
+                              │          Supabase            │
+                              │                              │
+                              │  Auth                        │
+                              │  PostgreSQL                  │
+                              │  Row Level Security          │
+                              │  Private Storage             │
+                              │  Edge Functions              │
+                              │  Rate Limiting               │
+                              └──────────────┬───────────────┘
+                                             │
+                                ┌────────────┴────────────┐
+                                │                         │
+                                ▼                         ▼
+                             Veryfi                    OpenAI
+
 ```
 ---
 
