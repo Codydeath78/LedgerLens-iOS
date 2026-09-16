@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="screenshots/appicon.png" width="250">
+</p>
+
+
 __LedgerLens__
 
 LedgerLens is a native iOS financial intelligence application built with Swift and SwiftUI.
